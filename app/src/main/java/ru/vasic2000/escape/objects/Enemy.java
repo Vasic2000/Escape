@@ -4,11 +4,11 @@ import static ru.vasic2000.escape.classes.GameManager.SPEED_ANIMATION;
 
 import android.graphics.Rect;
 
-import ru.vasic2000.core.Animation_9_Frames;
-import ru.vasic2000.core.GraphicsFW;
-import ru.vasic2000.core.ObjectFW;
 import ru.vasic2000.escape.utilities.UtilResourse;
-import ru.vasic2000.utils.UtilRandomFW;
+import ru.vasic2000.my_libgdx.core.Animation_9_Frames;
+import ru.vasic2000.my_libgdx.core.GraphicsFW;
+import ru.vasic2000.my_libgdx.core.ObjectFW;
+import ru.vasic2000.my_libgdx.utils.UtilRandomFW;
 
 public class Enemy extends ObjectFW {
     private Animation_9_Frames mAnimEnemy;

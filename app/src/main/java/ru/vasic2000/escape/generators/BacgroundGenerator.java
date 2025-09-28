@@ -4,8 +4,8 @@ import android.graphics.Color;
 
 import java.util.ArrayList;
 
-import ru.vasic2000.core.GraphicsFW;
-import ru.vasic2000.escape.scenes.Star;
+import ru.vasic2000.escape.objects.Star;
+import ru.vasic2000.my_libgdx.core.GraphicsFW;
 
 public class BacgroundGenerator {
     private ArrayList<Star> mStarArrayList = new ArrayList<Star>();

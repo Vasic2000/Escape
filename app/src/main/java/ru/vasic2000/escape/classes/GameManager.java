@@ -1,8 +1,16 @@
 package ru.vasic2000.escape.classes;
 
+import ru.vasic2000.escape.generators.BacgroundGenerator;
+import ru.vasic2000.escape.generators.BulletGenerators;
+import ru.vasic2000.escape.generators.EnemyGenerator;
+import ru.vasic2000.escape.generators.GiftGenerators;
+import ru.vasic2000.escape.objects.Enemy;
+import ru.vasic2000.escape.objects.HUD;
 import ru.vasic2000.escape.objects.MainPlayer;
 import ru.vasic2000.escape.utilities.SettingsGame;
 import ru.vasic2000.escape.utilities.UtilResourse;
+import ru.vasic2000.my_libgdx.core.CoreFW;
+import ru.vasic2000.my_libgdx.core.GraphicsFW;
 import ru.vasic2000.my_libgdx.utils.UtilCollisionsDetect;
 
 public class GameManager {
