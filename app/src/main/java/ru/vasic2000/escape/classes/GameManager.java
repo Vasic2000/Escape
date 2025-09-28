@@ -1,5 +1,6 @@
 package ru.vasic2000.escape.classes;
 
+import ru.vasic2000.escape.objects.MainPlayer;
 import ru.vasic2000.escape.utilities.SettingsGame;
 import ru.vasic2000.escape.utilities.UtilResourse;
 import ru.vasic2000.my_libgdx.utils.UtilCollisionsDetect;
