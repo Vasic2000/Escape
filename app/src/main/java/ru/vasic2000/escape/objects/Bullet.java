@@ -2,11 +2,11 @@ package ru.vasic2000.escape.objects;
 
 import android.graphics.Rect;
 
-import ru.vasic2000.core.Animation_4_Frames;
-import ru.vasic2000.core.GraphicsFW;
-import ru.vasic2000.core.ObjectFW;
 import ru.vasic2000.escape.classes.GameManager;
 import ru.vasic2000.escape.utilities.UtilResourse;
+import ru.vasic2000.my_libgdx.core.Animation_4_Frames;
+import ru.vasic2000.my_libgdx.core.GraphicsFW;
+import ru.vasic2000.my_libgdx.core.ObjectFW;
 
 public class Bullet extends ObjectFW {
     private Animation_4_Frames mAnimProtector;
