@@ -7,6 +7,7 @@ import androidx.core.content.res.ResourcesCompat;
 
 import java.util.ArrayList;
 
+import ru.vasic2000.escape.R;
 import ru.vasic2000.escape.interfaces.TaskCompleteListener;
 import ru.vasic2000.escape.scenes.LoaderResourcesScene;
 import ru.vasic2000.escape.utilities.SettingsGame;
