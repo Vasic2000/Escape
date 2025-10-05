@@ -3,18 +3,17 @@ plugins {
 }
 
 android {
-    namespace = "ru.vasic2000.escape"
+    namespace = "ru.vasic2000.my_libgdx"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ru.vasic2000.escape"
+        applicationId = "ru.vasic2000.my_libgdx"
         minSdk = 21
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.36"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -22,7 +21,7 @@ android {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules-dynamic-features.pro"
+                "proguard-rules.pro"
             )
         }
     }
@@ -30,17 +29,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
-    implementation(libs.constraintlayout)
-    implementation(project(":app:my_libgdx"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
