@@ -3,10 +3,10 @@ package ru.vasic2000.escape.generators;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import ru.vasic2000.core.GraphicsFW;
 import ru.vasic2000.escape.classes.GameManager;
 import ru.vasic2000.escape.objects.Enemy;
 import ru.vasic2000.escape.utilities.UtilResourse;
-import ru.vasic2000.my_libgdx.core.GraphicsFW;
 
 public class EnemyGenerator {
 

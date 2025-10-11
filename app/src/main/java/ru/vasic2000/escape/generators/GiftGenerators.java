@@ -1,10 +1,10 @@
 package ru.vasic2000.escape.generators;
 
+import ru.vasic2000.core.GraphicsFW;
 import ru.vasic2000.escape.objects.AddShield;
 import ru.vasic2000.escape.objects.MainPlayer;
 import ru.vasic2000.escape.objects.Protector;
-import ru.vasic2000.my_libgdx.core.GraphicsFW;
-import ru.vasic2000.my_libgdx.utils.UtilTimerDelay;
+import ru.vasic2000.utils.UtilTimerDelay;
 
 public class GiftGenerators {
 

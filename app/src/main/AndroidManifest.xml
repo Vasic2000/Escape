@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:dist="http://schemas.android.com/apk/distribution">
-
-    <uses-permission
-        android:name="android.permission.WAKE_LOCK">
-    </uses-permission>
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -15,10 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Escape">
-
         <activity
             android:name=".Main"
-            android:screenOrientation="landscape"
             android:exported="true"
             android:theme="@style/Theme.Escape">
             <intent-filter>
