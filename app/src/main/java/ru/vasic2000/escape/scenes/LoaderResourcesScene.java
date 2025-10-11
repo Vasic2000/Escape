@@ -4,8 +4,8 @@ import android.graphics.Color;
 
 import ru.vasic2000.escape.interfaces.TaskCompleteListener;
 import ru.vasic2000.escape.tasks.LoaderTask;
-import ru.vasic2000.my_libgdx.core.CoreFW;
-import ru.vasic2000.my_libgdx.core.SceneFW;
+import ru.vasic2000.core.CoreFW;
+import ru.vasic2000.core.SceneFW;
 
 public class LoaderResourcesScene extends SceneFW implements TaskCompleteListener {
     private static int mProgressLoader;

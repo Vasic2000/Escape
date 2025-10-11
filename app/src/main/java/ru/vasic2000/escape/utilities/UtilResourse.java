@@ -5,8 +5,8 @@ import android.graphics.Typeface;
 
 import java.util.ArrayList;
 
-import ru.vasic2000.my_libgdx.core.MusicFW;
-import ru.vasic2000.my_libgdx.core.SoundFW;
+import ru.vasic2000.core.MusicFW;
+import ru.vasic2000.core.SoundFW;
 
 public class UtilResourse {
     public static Bitmap sTextureAtlas;

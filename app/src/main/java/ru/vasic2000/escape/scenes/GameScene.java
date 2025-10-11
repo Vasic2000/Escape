@@ -5,8 +5,8 @@ import android.graphics.Color;
 
 import ru.vasic2000.escape.utilities.SettingsGame;
 import ru.vasic2000.escape.utilities.UtilResourse;
-import ru.vasic2000.my_libgdx.core.CoreFW;
-import ru.vasic2000.my_libgdx.core.SceneFW;
+import ru.vasic2000.core.CoreFW;
+import ru.vasic2000.core.SceneFW;
 
 public class GameScene extends SceneFW {
     private int recordColor = 0;

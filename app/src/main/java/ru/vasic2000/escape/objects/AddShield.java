@@ -4,10 +4,10 @@ import android.graphics.Rect;
 
 import ru.vasic2000.escape.classes.GameManager;
 import ru.vasic2000.escape.utilities.UtilResourse;
-import ru.vasic2000.my_libgdx.core.Animation_4_Frames;
-import ru.vasic2000.my_libgdx.core.GraphicsFW;
-import ru.vasic2000.my_libgdx.core.ObjectFW;
-import ru.vasic2000.my_libgdx.utils.UtilRandomFW;
+import ru.vasic2000.core.Animation_4_Frames;
+import ru.vasic2000.core.GraphicsFW;
+import ru.vasic2000.core.ObjectFW;
+import ru.vasic2000.utils.UtilRandomFW;
 
 public class AddShield extends ObjectFW {
     private Animation_4_Frames mAnimAddShield;

@@ -2,7 +2,7 @@ package ru.vasic2000.escape.utilities;
 
 import android.content.SharedPreferences;
 
-import ru.vasic2000.my_libgdx.core.CoreFW;
+import ru.vasic2000.core.CoreFW;
 
 public class SettingsGame {
 

@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Escape"
 include(":app")
-include(":app:my_libgdx")
+
