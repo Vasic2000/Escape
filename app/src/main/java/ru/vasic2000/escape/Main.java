@@ -1,5 +1,6 @@
 package ru.vasic2000.escape;
 
+import ru.vasic2000.escape.scenes.LoaderResourcesScene;
 import ru.vasic2000.my_libgdx.core.CoreFW;
 import ru.vasic2000.my_libgdx.core.SceneFW;
 
