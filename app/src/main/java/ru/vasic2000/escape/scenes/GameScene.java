@@ -1,8 +1,9 @@
 package ru.vasic2000.escape.scenes;
 
-import android.app.GameManager;
 import android.graphics.Color;
 
+import ru.vasic2000.escape.R;
+import ru.vasic2000.escape.classes.GameManager;
 import ru.vasic2000.escape.utilities.SettingsGame;
 import ru.vasic2000.escape.utilities.UtilResourse;
 import ru.vasic2000.core.CoreFW;

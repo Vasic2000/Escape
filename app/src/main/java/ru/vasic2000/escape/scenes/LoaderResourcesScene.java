@@ -2,10 +2,12 @@ package ru.vasic2000.escape.scenes;
 
 import android.graphics.Color;
 
+import ru.vasic2000.escape.R;
 import ru.vasic2000.escape.interfaces.TaskCompleteListener;
 import ru.vasic2000.escape.tasks.LoaderTask;
 import ru.vasic2000.core.CoreFW;
 import ru.vasic2000.core.SceneFW;
+import ru.vasic2000.escape.utilities.UtilResourse;
 
 public class LoaderResourcesScene extends SceneFW implements TaskCompleteListener {
     private static int mProgressLoader;

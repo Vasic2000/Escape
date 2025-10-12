@@ -12,8 +12,8 @@ import ru.vasic2000.escape.interfaces.TaskCompleteListener;
 import ru.vasic2000.escape.scenes.LoaderResourcesScene;
 import ru.vasic2000.escape.utilities.SettingsGame;
 import ru.vasic2000.escape.utilities.UtilResourse;
-import ru.vasic2000.my_libgdx.core.CoreFW;
-import ru.vasic2000.my_libgdx.core.GraphicsFW;
+import ru.vasic2000.core.CoreFW;
+import ru.vasic2000.core.GraphicsFW;
 
 public class LoaderTask extends AsyncTask<Void, Integer, Void> {
     private TaskCompleteListener mTaskCompleteListener;

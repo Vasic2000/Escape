@@ -1,7 +1,7 @@
 package ru.vasic2000.escape.objects;
 
-import ru.vasic2000.my_libgdx.core.ObjectFW;
-import ru.vasic2000.my_libgdx.utils.UtilRandomFW;
+import ru.vasic2000.core.ObjectFW;
+import ru.vasic2000.utils.UtilRandomFW;
 
 public class Star extends ObjectFW {
     public Star(int sceneWidth, int sceneHeight, int minScreenY) {

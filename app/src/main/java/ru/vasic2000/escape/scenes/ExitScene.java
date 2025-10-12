@@ -4,6 +4,7 @@ import static java.lang.System.exit;
 
 import android.graphics.Color;
 
+import ru.vasic2000.escape.R;
 import ru.vasic2000.escape.utilities.UtilResourse;
 import ru.vasic2000.core.CoreFW;
 import ru.vasic2000.core.SceneFW;
