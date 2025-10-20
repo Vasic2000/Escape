@@ -40,6 +40,7 @@ public class TouchListenerFW implements View.OnTouchListener {
         }
         return true;
     }
+
     // x, y - Левый нижний угол
     public boolean getTuchDown(int x, int y, int touchWidth, int touchHeight) {
         if(mIsTouchDown) {

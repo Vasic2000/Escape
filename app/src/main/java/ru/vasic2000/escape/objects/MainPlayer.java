@@ -90,9 +90,9 @@ public class MainPlayer extends ObjectFW {
     }
 
     public void update(GameManager.BossState mBossState) {
-        if(mBossState == GameManager.BossState.BOSS) {
-            pSpeed = 0;
-        }
+//        if(mBossState == GameManager.BossState.BOSS) {
+//            pSpeed = 0;
+//        }
 
         if(mCoreFW.getTouchListenerFW().getTuchDown(0, pMaxScreenY, pMaxScreenX, pMaxScreenY)) {
             startBoosting();
