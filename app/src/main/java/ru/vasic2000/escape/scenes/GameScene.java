@@ -163,10 +163,10 @@ public class GameScene extends SceneFW {
 
         SettingsGame.addDistance(mGameManager.getPassedDistaence());
 
-        if(pCoreFW.getTouchListenerFW().getTuchUp(250, 368, 250, 45)) {
+        if(pCoreFW.getTouchListenerFW().getTuchUp(250, 368, 450, 45)) {
             pCoreFW.setScene(new GameScene(pCoreFW));
         }
-        if(pCoreFW.getTouchListenerFW().getTuchUp(250, 438, 200, 45)) {
+        if(pCoreFW.getTouchListenerFW().getTuchUp(250, 438, 450, 45)) {
             pCoreFW.setScene(new MainMenuScene(pCoreFW));
         }
     }

@@ -14,19 +14,19 @@ public class MainMenuScene extends SceneFW {
 
     @Override
     public void update() {
-        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 300, 250, 50)) {
+        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 300, 500, 70)) {
             pCoreFW.setScene(new GameScene(pCoreFW));
             UtilResourse.sTouch.play(1);
         }
-        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 350, 250, 50)) {
+        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 350, 500, 70)) {
             pCoreFW.setScene(new SettingsScene(pCoreFW));
             UtilResourse.sTouch.play(1);
         }
-        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 400, 145, 35)) {
+        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 400, 500, 70)) {
             pCoreFW.setScene(new TopDistance(pCoreFW));
             UtilResourse.sTouch.play(1);
         }
-        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 450, 120, 35)) {
+        if(pCoreFW.getTouchListenerFW().getTuchUp(20, 450, 500, 70)) {
             pCoreFW.setScene(new ExitScene(pCoreFW));
             UtilResourse.sTouch.play(1);
         }

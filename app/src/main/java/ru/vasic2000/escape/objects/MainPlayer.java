@@ -115,7 +115,7 @@ public class MainPlayer extends ObjectFW {
                 pSpeed += 0.2;
                 pY -= (VERTICAL_SPEED + pSpeed);
             } else {
-                pSpeed -= 1.5;
+                pSpeed -= 0.4;
                 pY -= (pSpeed + GRAVITY);
             }
         } else {
